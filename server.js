@@ -2,7 +2,7 @@
 const Laptop = require('./models/Laptop');
 
 // POST route to add a new laptop
-app.post('/laptops', async (req, res) => {
+app.post('/laptop', async (req, res) => {
   try {
     const { brand, model, serialNumber, status, purchaseDate } = req.body;
 
